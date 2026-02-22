@@ -1,3 +1,5 @@
+#DRY Violation: Each function asks for input from the user and each prints to the console
+#Single Responsibility Violation: Each function should only compute the mathematical operations
 def add():
     num1 = int(input("Enter first number: "))
     num2 = int(input("Enter second number: "))
