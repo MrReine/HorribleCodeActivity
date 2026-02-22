@@ -5,3 +5,12 @@ def div(a,b):
     if b == 0:
         return "Cannot divide by zero."
     return a/b
+
+def get_nums():
+    while True:
+        try:
+            num1 = int(input("Enter first number: "))
+            num2 = int(input("Enter second number: "))
+            break
+        except ValueError:
+            print("Please enter a numbers.")
