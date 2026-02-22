@@ -24,6 +24,7 @@ def div():
     res = num1 / num2
     print(f"The division is {res}")
 
+#Poor structure in main
 def main():
     choice = input("1. Add, 2. Sub, 3. Mult, 4. Div: ")
     if choice == "1": add()
