@@ -24,10 +24,10 @@ def div():
 
 def main():
     choice = input("1. Add, 2. Sub, 3. Mult, 4. Div: ")
-    if choice == 1: add()
-    elif choice == 2: sub()
-    elif choice == 3: mul()
-    elif choice == 4: div()
+    if choice == "1": add()
+    elif choice == "2": sub()
+    elif choice == "3": mul()
+    elif choice == "4": div()
 
 if __name__ == "__main__":
     main()
