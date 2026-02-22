@@ -1,3 +1,5 @@
+#All functions perform one task
+#Nothing is repeated
 def add(a,b): return a+b
 def sub(a,b): return a-b
 def mult(a,b): return a*b
@@ -5,7 +7,7 @@ def div(a,b):
     if b == 0:
         return "Cannot divide by zero."
     return a/b
-
+#Incorrect input is now handled and the program can continue to run
 def get_nums():
     while True:
         try:
