@@ -14,3 +14,4 @@ def get_nums():
             break
         except ValueError:
             print("Please enter a numbers.")
+    return num1, num2
